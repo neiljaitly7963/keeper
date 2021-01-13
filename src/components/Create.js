@@ -17,7 +17,6 @@ import {
 import CustomerNameHeading from './Headings/CustomerNameHeading';
 import FormHeading from './Headings/FormHeading';
 import ScrollIndicator from './ScrollIndicator';
-import PaymentCard from '../pages/OrderRequest/PaymentCard';
 import MobileLogo from './MobileLogo';
 import TotalPrice from './TotalPrice';
 import ItemsPageHeader from './ItemsPageHeader';
