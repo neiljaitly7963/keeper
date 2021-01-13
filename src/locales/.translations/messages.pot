@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-08-27T04:58:40.112Z\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"X-Generator: react-intl-po\n"
+
+
+#: src/locales/.translations/messages.json
+#. [Error.OrderComplete]
+#. defaultMessage is:
+#. An error occurred while completing your order
+msgctxt "Error.OrderComplete"
+msgid "An error occurred while completing your order"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Error.OrderPdf]
+#. defaultMessage is:
+#. An error occurred while getting your order details
+msgctxt "Error.OrderPdf"
+msgid "An error occurred while getting your order details"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Error.PaymentLoading]
+#. defaultMessage is:
+#. An error occurred while loading your payment methods
+msgctxt "Error.PaymentLoading"
+msgid "An error occurred while loading your payment methods"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Error.UpdateAddress]
+#. defaultMessage is:
+#. An error occurred while updating your address
+msgctxt "Error.UpdateAddress"
+msgid "An error occurred while updating your address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Country.Belgium]
+#. defaultMessage is:
+#. Belgium
+msgctxt "Country.Belgium"
+msgid "Belgium"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderAddressEditModal.Cancel]
+#. defaultMessage is:
+#. Cancel
+msgctxt "OrderAddressEditModal.Cancel"
+msgid "Cancel"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [SetChangeAddressText.ChangeBilling]
+#. defaultMessage is:
+#. Change billing address
+msgctxt "SetChangeAddressText.ChangeBilling"
+msgid "Change billing address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [SetChangeAddressText.ChangeShipping]
+#. defaultMessage is:
+#. Change shipping address
+msgctxt "SetChangeAddressText.ChangeShipping"
+msgid "Change shipping address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.City]
+#. defaultMessage is:
+#. City
+msgctxt "Address.City"
+msgid "City"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.Country]
+#. defaultMessage is:
+#. Country
+msgctxt "Address.Country"
+msgid "Country"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.FlatNumber]
+#. defaultMessage is:
+#. Flat number
+msgctxt "Address.FlatNumber"
+msgid "Flat number"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Country.Germany]
+#. defaultMessage is:
+#. Germany
+msgctxt "Country.Germany"
+msgid "Germany"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.HouseNumber]
+#. defaultMessage is:
+#. House number
+msgctxt "Address.HouseNumber"
+msgid "House number"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderAddressEditModal.HouseNumberStreetFlatNumber]
+#. defaultMessage is:
+#. House number, street and flat number
+msgctxt "OrderAddressEditModal.HouseNumberStreetFlatNumber"
+msgid "House number, street and flat number"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Error.InvalidBillingAddress]
+#. defaultMessage is:
+#. Invalid billing address
+msgctxt "Error.InvalidBillingAddress"
+msgid "Invalid billing address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.InvalidHouseNumber]
+#. defaultMessage is:
+#. Invalid house number
+msgctxt "Address.InvalidHouseNumber"
+msgid "Invalid house number"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.InvalidPostalCode]
+#. defaultMessage is:
+#. Invalid postal code
+msgctxt "Address.InvalidPostalCode"
+msgid "Invalid postal code"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Error.InvalidShippingAddress]
+#. defaultMessage is:
+#. Invalid shipping address
+msgctxt "Error.InvalidShippingAddress"
+msgid "Invalid shipping address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderDetails.LoadingOrder]
+#. defaultMessage is:
+#. Loading order details
+msgctxt "OrderDetails.LoadingOrder"
+msgid "Loading order details"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Country.Netherlands]
+#. defaultMessage is:
+#. Netherlands
+msgctxt "Country.Netherlands"
+msgid "Netherlands"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Main.OrderNotFound]
+#. defaultMessage is:
+#. No order found
+msgctxt "Main.OrderNotFound"
+msgid "No order found"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Error.MissingPayment]
+#. defaultMessage is:
+#. No payment method selected
+msgctxt "Error.MissingPayment"
+msgid "No payment method selected"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderPayment.MissingPayments]
+#. defaultMessage is:
+#. No payment methods available.
+msgctxt "OrderPayment.MissingPayments"
+msgid "No payment methods available."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderDetails.Title]
+#. defaultMessage is:
+#. Order PDF
+msgctxt "OrderDetails.Title"
+msgid "Order PDF"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Main.Error]
+#. defaultMessage is:
+#. Payment failed.
+msgctxt "Main.Error"
+msgid "Payment failed."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Main.Description]
+#. defaultMessage is:
+#. Please complete the details below to complete your order.
+msgctxt "Main.Description"
+msgid "Please complete the details below to complete your order."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Main.CheckingPayment]
+#. defaultMessage is:
+#. Please wait while we are validating the payment.
+msgctxt "Main.CheckingPayment"
+msgid "Please wait while we are validating the payment."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.PostalCode]
+#. defaultMessage is:
+#. Postal code
+msgctxt "Address.PostalCode"
+msgid "Postal code"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Error.Required]
+#. defaultMessage is:
+#. Required
+msgctxt "Error.Required"
+msgid "Required"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [SetChangeAddressText.SetShipping]
+#. defaultMessage is:
+#. Same as billing address
+msgctxt "SetChangeAddressText.SetShipping"
+msgid "Same as billing address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [SetChangeAddressText.SetBilling]
+#. defaultMessage is:
+#. Same as shipping address
+msgctxt "SetChangeAddressText.SetBilling"
+msgid "Same as shipping address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderDetails.ShowSummary]
+#. defaultMessage is:
+#. Show order summary
+msgctxt "OrderDetails.ShowSummary"
+msgid "Show order summary"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Address.Street]
+#. defaultMessage is:
+#. Street
+msgctxt "Address.Street"
+msgid "Street"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [ThankYou.Header]
+#. defaultMessage is:
+#. Thank you for completing your order!
+msgctxt "ThankYou.Header"
+msgid "Thank you for completing your order!"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderAddressEditModal.Update]
+#. defaultMessage is:
+#. Update address
+msgctxt "OrderAddressEditModal.Update"
+msgid "Update address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderSummary.ShowDetails]
+#. defaultMessage is:
+#. View order
+msgctxt "OrderSummary.ShowDetails"
+msgid "View order"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Main.ContactUs]
+#. defaultMessage is:
+#. We where unable to check if the payment was successful, reload the page to try again.
+msgctxt "Main.ContactUs"
+msgid "We where unable to check if the payment was successful, reload the page to try again."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [ThankYou.Email]
+#. defaultMessage is:
+#. When the order is shipped out, you'll receive an email.
+msgctxt "ThankYou.Email"
+msgid "When the order is shipped out, you'll receive an email."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderAddressRow.BillingAddress]
+#. defaultMessage is:
+#. Your billing address
+msgctxt "OrderAddressRow.BillingAddress"
+msgid "Your billing address"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [Main.OrderNumber]
+#. defaultMessage is:
+#. Your order #{number}
+msgctxt "Main.OrderNumber"
+msgid "Your order #{number}"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [ThankYou.OrderId]
+#. defaultMessage is:
+#. Your order ID is:	#{number}
+msgctxt "ThankYou.OrderId"
+msgid "Your order ID is:\t#{number}"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderSummary.Title]
+#. defaultMessage is:
+#. Your order summary
+msgctxt "OrderSummary.Title"
+msgid "Your order summary"
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [ThankYou.ProcessingOrder]
+#. defaultMessage is:
+#. Your order will now be processed by {storename}.
+msgctxt "ThankYou.ProcessingOrder"
+msgid "Your order will now be processed by {storename}."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [ThankYou.Total]
+#. defaultMessage is:
+#. Your payment of € {total} is received.
+msgctxt "ThankYou.Total"
+msgid "Your payment of € {total} is received."
+msgstr ""
+
+#: src/locales/.translations/messages.json
+#. [OrderAddressRow.ShippingAddress]
+#. defaultMessage is:
+#. Your shipping address
+msgctxt "OrderAddressRow.ShippingAddress"
+msgid "Your shipping address"
+msgstr ""

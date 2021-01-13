@@ -1,0 +1,10 @@
+{
+  "api": {
+    "baseUrl": "https://api-sjoerddev5.b2.code4.pizza/",
+    "key": "thisIsSomeAmazingToken"
+  },
+  "company": {
+    "name": "StoreKeeper B.V.",
+    "logo": "https://storekeeper.nl/wp-content/uploads/2019/12/logo-250x63.png"
+  }
+}

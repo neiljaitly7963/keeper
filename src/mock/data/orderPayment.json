@@ -1,0 +1,40 @@
+{
+  "provider": {
+    "id": 12274,
+    "provider_type_id": 7,
+    "title": "Storekeeper TEST",
+    "alias": "storekeeper_test"
+  },
+  "provider_method": {
+    "id": 12481,
+    "title": "iDEAL",
+    "eid": "10",
+    "image_url": "https://admin.pay.nl/images/payment_profiles/10.gif",
+    "provider_method_type_id": 1
+  },
+  "id": 10773,
+  "provider_id": 12274,
+  "method": "iDEAL",
+  "amount": 0.01,
+  "currency_iso3": "EUR",
+  "is_test": false,
+  "title": "Betaling op bestelling #S8A-00001469",
+  "description": "",
+  "reference_no": "S8A-00001469",
+  "status": "paid",
+  "date_created": "2020-07-06 07:17:51+02:00",
+  "date_updated": "2020-07-06 07:30:35+02:00",
+  "payment_url": "https://ideal.pay.nl/payment/init/1286844992X32616/f6d94eef6b174da18a26850a44f3dfbde24bf1d1/10/NL",
+  "redirect_url": "https://api-lukishop.b3.code4.pizza/?action=paymentPageFinish&trx=5f02b3ff-22e1-44d1-bad6-447f2bc70105&api=plain&account=lukishop",
+  "eid": "1286844992X32616",
+  "relation_data_id": 8985,
+  "provider_method_id": 12481,
+  "trx": "5f02b3ff-22e1-44d1-bad6-447f2bc70105",
+  "is_virtual": false,
+  "payment_vars": [
+    {
+      "name": "details.ipAddress",
+      "value": "2001:8003:1967:f800:b5ee:8d11:6d4a:f816"
+    }
+  ]
+}

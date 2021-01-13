@@ -1,0 +1,252 @@
+[
+  {
+    "id": "Error.OrderComplete",
+    "defaultMessage": "An error occurred while completing your order",
+    "filepath": "src/components/buttons/OrderCompleteButton.js"
+  },
+  {
+    "id": "Main.CheckingPayment",
+    "defaultMessage": "Please wait while we are validating the payment.",
+    "filepath": "src/components/CheckingPayment.js"
+  },
+  {
+    "id": "Main.OrderNumber",
+    "defaultMessage": "Your order",
+    "filepath": "src/components/Create.js"
+  },
+  {
+    "id": "Main.YourContact",
+    "defaultMessage": "Your Contact",
+    "filepath": "src/components/ItemsPageHeader.jsx"
+  },
+  {
+    "id": "Main.Description",
+    "defaultMessage": "Please complete the details below to complete your order.",
+    "filepath": "src/components/Create.js"
+  },
+  {
+    "id": "ThankYou.Heading",
+    "defaultMessage": "Thank you from the store",
+    "filepath": "src/components/ThankYou.js"
+  },
+  {
+    "id": "ThankYou.Description",
+    "defaultMessage": "Thanks for your order",
+    "filepath": "src/components/heading/CustomerNameHeading.jsx"
+  },
+  {
+    "id": "Create.Description",
+    "defaultMessage": "Quickly complete your order request",
+    "filepath": "src/components/heading/CustomerNameHeading.jsx"
+  },
+  {
+    "id": "Error.UpdateAddress",
+    "defaultMessage": "An error occurred while updating your address",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "Address.PostalCode",
+    "defaultMessage": "Postal code",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "OrderAddressEditModal.HouseNumberStreetFlatNumber",
+    "defaultMessage": "House number, street and flat number",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "Address.City",
+    "defaultMessage": "City",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "Address.Country",
+    "defaultMessage": "Country",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "OrderAddressEditModal.Update",
+    "defaultMessage": "Update address",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "OrderAddressEditModal.Cancel",
+    "defaultMessage": "Cancel",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "Main.OrderNotFound",
+    "defaultMessage": "No order found",
+    "filepath": "src/components/NotFound.js"
+  },
+  {
+    "id": "OrderAddressRow.BillingAddress",
+    "defaultMessage": "Your billing address",
+    "filepath": "src/components/OrderAddressRow.js"
+  },
+  {
+    "id": "OrderAddressRow.ShippingAddress",
+    "defaultMessage": "Shipping address",
+    "filepath": "src/components/modals/OrderAddressEditModal.js"
+  },
+  {
+    "id": "Order.Payment",
+    "defaultMessage": "Payment",
+    "filepath": "src/components/OrderPayment.js"
+  },
+  {
+    "id": "Error.OrderPdf",
+    "defaultMessage": "An error occurred while getting your order details",
+    "filepath": "src/components/OrderDetails.js"
+  },
+  {
+    "id": "OrderDetails.LoadingOrder",
+    "defaultMessage": "Loading order details",
+    "filepath": "src/components/OrderDetails.js"
+  },
+  {
+    "id": "OrderDetails.Title",
+    "defaultMessage": "Order PDF",
+    "filepath": "src/components/OrderDetails.js"
+  },
+  {
+    "id": "OrderDetails.ShowSummary",
+    "defaultMessage": "Show order summary",
+    "filepath": "src/components/OrderDetails.js"
+  },
+  {
+    "id": "Error.PaymentLoading",
+    "defaultMessage": "An error occurred while loading your payment methods",
+    "filepath": "src/components/OrderPayments.js"
+  },
+  {
+    "id": "OrderPayment.MissingPayments",
+    "defaultMessage": "No payment methods available.",
+    "filepath": "src/components/OrderPayments.js"
+  },
+  {
+    "id": "OrderSummary.Title",
+    "defaultMessage": "Your order summary",
+    "filepath": "src/components/OrderSummary.js"
+  },
+  {
+    "id": "OrderSummary.ShowDetails",
+    "defaultMessage": "View order",
+    "filepath": "src/components/OrderSummary.js"
+  },
+  {
+    "id": "SetChangeAddressText.SetShipping",
+    "defaultMessage": "Same as billing address",
+    "filepath": "src/components/spans/CopyAddressText.js"
+  },
+  {
+    "id": "SetChangeAddressText.SetBilling",
+    "defaultMessage": "Same as shipping address",
+    "filepath": "src/components/spans/CopyAddressText.js"
+  },
+  {
+    "id": "SetChangeAddressText.ChangeBilling",
+    "defaultMessage": "Change billing address",
+    "filepath": "src/components/spans/SetChangeAddressText.js"
+  },
+  {
+    "id": "SetChangeAddressText.ChangeShipping",
+    "defaultMessage": "Change shipping address",
+    "filepath": "src/components/spans/SetChangeAddressText.js"
+  },
+  {
+    "id": "ThankYou.Header",
+    "defaultMessage": "Thank you for completing your order!",
+    "filepath": "src/components/ThankYou.js"
+  },
+  {
+    "id": "ThankYou.Total",
+    "defaultMessage": "Your payment of € {total} is received.",
+    "filepath": "src/components/ThankYou.js"
+  },
+  {
+    "id": "ThankYou.ProcessingOrder",
+    "defaultMessage": "Your order will now be processed by {storename}.",
+    "filepath": "src/components/ThankYou.js"
+  },
+  {
+    "id": "ThankYou.Email",
+    "defaultMessage": "When the order is shipped out, you'll receive an email.",
+    "filepath": "src/components/ThankYou.js"
+  },
+  {
+    "id": "ThankYou.OrderId",
+    "defaultMessage": "Your order ID is:\t#{number}",
+    "filepath": "src/components/ThankYou.js"
+  },
+  {
+    "id": "Main.Error",
+    "defaultMessage": "Payment failed.",
+    "filepath": "src/pages/Main.js"
+  },
+  {
+    "id": "Main.ContactUs",
+    "defaultMessage": "We where unable to check if the payment was successful, reload the page to try again.",
+    "filepath": "src/pages/Main.js"
+  },
+  {
+    "id": "Address.HouseNumber",
+    "defaultMessage": "House number",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Address.Street",
+    "defaultMessage": "Street",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Address.FlatNumber",
+    "defaultMessage": "Flat number",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Address.InvalidPostalCode",
+    "defaultMessage": "Invalid postal code",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Address.InvalidHouseNumber",
+    "defaultMessage": "Invalid house number",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Error.Required",
+    "defaultMessage": "Required",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Country.Netherlands",
+    "defaultMessage": "Netherlands",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Country.Belgium",
+    "defaultMessage": "Belgium",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Country.Germany",
+    "defaultMessage": "Germany",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Error.InvalidShippingAddress",
+    "defaultMessage": "Invalid shipping address",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Error.InvalidBillingAddress",
+    "defaultMessage": "Invalid billing address",
+    "filepath": "src/utility/translations.js"
+  },
+  {
+    "id": "Error.MissingPayment",
+    "defaultMessage": "No payment method selected",
+    "filepath": "src/utility/translations.js"
+  }
+]

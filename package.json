@@ -1,0 +1,70 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@formatjs/cli": "^1.8.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-regular-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.0",
+    "intl-messageformat": "^8.4.0",
+    "lodash": "^4.17.19",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.4.0",
+    "react-intl": "^4.7.5",
+    "react-modal": "^3.11.2",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-api": "^0.12.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-mock": "REACT_APP_USE_MOCK=1 react-scripts start",
+    "build": "PUBLIC_URL='.' react-scripts build",
+    "test": "react-scripts test",
+    "deploy": "vercel",
+    "translate": "npm run translation:extract && npm run translation:json2pot && npm run translation:poedit && npm run translation:po2json",
+    "translation:extract": "react-intl-cra 'src/**/*.js' -o 'src/locales/.translations/messages.json'",
+    "translation:json2pot": "react-intl-po json2pot 'src/locales/.translations/messages.json' -c 'id' -o 'src/locales/.translations/messages.pot'",
+    "translation:poedit": "poedit src/locales/.translations/nl.po",
+    "translation:po2json": "react-intl-po po2json 'src/locales/.translations/*.po' -c 'id' -m 'src/locales/.translations/messages.json' -o 'src/locales/translation.json'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "miragejs": "^0.1.40",
+    "react-intl-cra": "^0.3.4",
+    "react-intl-po": "^2.2.2",
+    "vercel": "^19.1.1"
+  }
+}

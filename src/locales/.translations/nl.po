@@ -1,0 +1,397 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-08-27 14:58+1000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [Error.OrderComplete]
+#. defaultMessage is:
+#. An error occurred while completing your order
+#: src/locales/.translations/messages.json
+msgctxt "Error.OrderComplete"
+msgid "An error occurred while completing your order"
+msgstr "Er is een fout opgetreden bij het afronden van uw bestelling"
+
+#. [Error.OrderPdf]
+#. defaultMessage is:
+#. An error occurred while getting your order details
+#: src/locales/.translations/messages.json
+msgctxt "Error.OrderPdf"
+msgid "An error occurred while getting your order details"
+msgstr "Er is een fout opgetreden bij het ophalen van uw bestelgegevens"
+
+#. [Error.PaymentLoading]
+#. defaultMessage is:
+#. An error occurred while loading your payment methods
+#: src/locales/.translations/messages.json
+msgctxt "Error.PaymentLoading"
+msgid "An error occurred while loading your payment methods"
+msgstr "Er is een fout opgetreden bij het laden van uw betaalmethoden"
+
+#. [Error.UpdateAddress]
+#. defaultMessage is:
+#. An error occurred while updating your address
+#: src/locales/.translations/messages.json
+msgctxt "Error.UpdateAddress"
+msgid "An error occurred while updating your address"
+msgstr "Er is een fout opgetreden bij het bijwerken van uw adres"
+
+#. [Country.Belgium]
+#. defaultMessage is:
+#. Belgium
+#: src/locales/.translations/messages.json
+msgctxt "Country.Belgium"
+msgid "Belgium"
+msgstr "België"
+
+#. [OrderAddressEditModal.Cancel]
+#. defaultMessage is:
+#. Cancel
+#: src/locales/.translations/messages.json
+msgctxt "OrderAddressEditModal.Cancel"
+msgid "Cancel"
+msgstr "Annuleren"
+
+#. [SetChangeAddressText.ChangeBilling]
+#. defaultMessage is:
+#. Change billing address
+#: src/locales/.translations/messages.json
+msgctxt "SetChangeAddressText.ChangeBilling"
+msgid "Change billing address"
+msgstr "Wijzig factuuradres"
+
+#. [SetChangeAddressText.ChangeShipping]
+#. defaultMessage is:
+#. Change shipping address
+#: src/locales/.translations/messages.json
+msgctxt "SetChangeAddressText.ChangeShipping"
+msgid "Change shipping address"
+msgstr "Wijzig verzendadres"
+
+#. [Address.City]
+#. defaultMessage is:
+#. City
+#: src/locales/.translations/messages.json
+msgctxt "Address.City"
+msgid "City"
+msgstr "Stad"
+
+#. [Address.Country]
+#. defaultMessage is:
+#. Country
+#: src/locales/.translations/messages.json
+msgctxt "Address.Country"
+msgid "Country"
+msgstr "Land"
+
+#. [Address.FlatNumber]
+#. defaultMessage is:
+#. Flat number
+#: src/locales/.translations/messages.json
+msgctxt "Address.FlatNumber"
+msgid "Flat number"
+msgstr "Toevoeging"
+
+#. [Country.Germany]
+#. defaultMessage is:
+#. Germany
+#: src/locales/.translations/messages.json
+msgctxt "Country.Germany"
+msgid "Germany"
+msgstr "Duitsland"
+
+#. [Address.HouseNumber]
+#. defaultMessage is:
+#. House number
+#: src/locales/.translations/messages.json
+msgctxt "Address.HouseNumber"
+msgid "House number"
+msgstr "Huisnummer"
+
+#. [OrderAddressEditModal.HouseNumberStreetFlatNumber]
+#. defaultMessage is:
+#. House number, street and flat number
+#: src/locales/.translations/messages.json
+msgctxt "OrderAddressEditModal.HouseNumberStreetFlatNumber"
+msgid "House number, street and flat number"
+msgstr "Huisnummer, straat en toevoeging"
+
+#. [Error.InvalidBillingAddress]
+#. defaultMessage is:
+#. Invalid billing address
+#: src/locales/.translations/messages.json
+msgctxt "Error.InvalidBillingAddress"
+msgid "Invalid billing address"
+msgstr "Factuuradres ongeldig"
+
+#. [Address.InvalidHouseNumber]
+#. defaultMessage is:
+#. Invalid house number
+#: src/locales/.translations/messages.json
+msgctxt "Address.InvalidHouseNumber"
+msgid "Invalid house number"
+msgstr "Ongeldig huisnummer"
+
+#. [Address.InvalidPostalCode]
+#. defaultMessage is:
+#. Invalid postal code
+#: src/locales/.translations/messages.json
+msgctxt "Address.InvalidPostalCode"
+msgid "Invalid postal code"
+msgstr "Ongeldig postcode"
+
+#. [Error.InvalidShippingAddress]
+#. defaultMessage is:
+#. Invalid shipping address
+#: src/locales/.translations/messages.json
+msgctxt "Error.InvalidShippingAddress"
+msgid "Invalid shipping address"
+msgstr "Verzendadres ongeldig"
+
+#. [OrderDetails.LoadingOrder]
+#. defaultMessage is:
+#. Loading order details
+#: src/locales/.translations/messages.json
+msgctxt "OrderDetails.LoadingOrder"
+msgid "Loading order details"
+msgstr "Details van de bestelling aan het laden"
+
+#. [Country.Netherlands]
+#. defaultMessage is:
+#. Netherlands
+#: src/locales/.translations/messages.json
+msgctxt "Country.Netherlands"
+msgid "Netherlands"
+msgstr "Nederland"
+
+#. [Main.OrderNotFound]
+#. defaultMessage is:
+#. No order found
+#: src/locales/.translations/messages.json
+msgctxt "Main.OrderNotFound"
+msgid "No order found"
+msgstr "Geen bestelling gevonden."
+
+#. [Error.MissingPayment]
+#. defaultMessage is:
+#. No payment method selected
+#: src/locales/.translations/messages.json
+msgctxt "Error.MissingPayment"
+msgid "No payment method selected"
+msgstr "Geen betaalmethode "
+
+#. [OrderPayment.MissingPayments]
+#. defaultMessage is:
+#. No payment methods available.
+#: src/locales/.translations/messages.json
+msgctxt "OrderPayment.MissingPayments"
+msgid "No payment methods available."
+msgstr "Geen betaalmethode beschikbaar."
+
+#. [OrderDetails.Title]
+#. defaultMessage is:
+#. Order PDF
+#: src/locales/.translations/messages.json
+msgctxt "OrderDetails.Title"
+msgid "Order PDF"
+msgstr "Bestelling PDF"
+
+#. [Main.Error]
+#. defaultMessage is:
+#. Payment failed.
+#: src/locales/.translations/messages.json
+msgctxt "Main.Error"
+msgid "Payment failed."
+msgstr "Betaling mislukt."
+
+#. [Main.Description]
+#. defaultMessage is:
+#. Please complete the details below to complete your order.
+#: src/locales/.translations/messages.json
+msgctxt "Main.Description"
+msgid "Please complete the details below to complete your order."
+msgstr "Vul de onderstaande gegevens in om je bestelling te voltooien."
+
+#. [Main.CheckingPayment]
+#. defaultMessage is:
+#. Please wait while we are validating the payment.
+#: src/locales/.translations/messages.json
+msgctxt "Main.CheckingPayment"
+msgid "Please wait while we are validating the payment."
+msgstr "Wacht alsjeblieft terwijl we de betaling valideren."
+
+#. [Address.PostalCode]
+#. defaultMessage is:
+#. Postal code
+#: src/locales/.translations/messages.json
+msgctxt "Address.PostalCode"
+msgid "Postal code"
+msgstr "Postcode"
+
+#. [Error.Required]
+#. defaultMessage is:
+#. Required
+#: src/locales/.translations/messages.json
+msgctxt "Error.Required"
+msgid "Required"
+msgstr "Verplicht"
+
+#. [SetChangeAddressText.SetShipping]
+#. defaultMessage is:
+#. Same as billing address
+#: src/locales/.translations/messages.json
+msgctxt "SetChangeAddressText.SetShipping"
+msgid "Same as billing address"
+msgstr "Zelfde als factuuradres"
+
+#. [SetChangeAddressText.SetBilling]
+#. defaultMessage is:
+#. Same as shipping address
+#: src/locales/.translations/messages.json
+msgctxt "SetChangeAddressText.SetBilling"
+msgid "Same as shipping address"
+msgstr "Zelfde als verzendadres"
+
+#. [OrderDetails.ShowSummary]
+#. defaultMessage is:
+#. Show order summary
+#: src/locales/.translations/messages.json
+msgctxt "OrderDetails.ShowSummary"
+msgid "Show order summary"
+msgstr "Samenvatting van de bestelling weergeven"
+
+#. [Address.Street]
+#. defaultMessage is:
+#. Street
+#: src/locales/.translations/messages.json
+msgctxt "Address.Street"
+msgid "Street"
+msgstr "Straat"
+
+#. [ThankYou.Header]
+#. defaultMessage is:
+#. Thank you for completing your order!
+#: src/locales/.translations/messages.json
+msgctxt "ThankYou.Header"
+msgid "Thank you for completing your order!"
+msgstr "Bedankt voor het voltooien van je bestelling!"
+
+#. [OrderAddressEditModal.Update]
+#. defaultMessage is:
+#. Update address
+#: src/locales/.translations/messages.json
+msgctxt "OrderAddressEditModal.Update"
+msgid "Update address"
+msgstr "Adres wijzigen"
+
+#. [OrderSummary.ShowDetails]
+#. defaultMessage is:
+#. View order
+#: src/locales/.translations/messages.json
+msgctxt "OrderSummary.ShowDetails"
+msgid "View order"
+msgstr "Bestelling bekijken"
+
+#. [Main.ContactUs]
+#. defaultMessage is:
+#. We where unable to check if the payment was successful, reload the page to try again.
+#: src/locales/.translations/messages.json
+msgctxt "Main.ContactUs"
+msgid ""
+"We where unable to check if the payment was successful, reload the page to "
+"try again."
+msgstr ""
+"We konden niet controleren of de betaling is geslaagd. Herlaad de pagina om "
+"het opnieuw te proberen."
+
+#. [ThankYou.Email]
+#. defaultMessage is:
+#. When the order is shipped out, you'll receive an email.
+#: src/locales/.translations/messages.json
+msgctxt "ThankYou.Email"
+msgid "When the order is shipped out, you'll receive an email."
+msgstr "Wanneer je bestelling word verstuurd ontvang je een e-mail."
+
+#. [OrderAddressRow.BillingAddress]
+#. defaultMessage is:
+#. Your billing address
+#: src/locales/.translations/messages.json
+msgctxt "OrderAddressRow.BillingAddress"
+msgid "Your billing address"
+msgstr "Je factuuradres"
+
+#. [Main.OrderNumber]
+#. defaultMessage is:
+#. Your order #{number}
+#: src/locales/.translations/messages.json
+msgctxt "Main.OrderNumber"
+msgid "Your order #{number}"
+msgstr "Je bestelling #{number}"
+
+#. [ThankYou.OrderId]
+#. defaultMessage is:
+#. Your order ID is:	#{number}
+#: src/locales/.translations/messages.json
+msgctxt "ThankYou.OrderId"
+msgid "Your order ID is:\t#{number}"
+msgstr "Je bestellingsnummer is: #{number}"
+
+#. [OrderSummary.Title]
+#. defaultMessage is:
+#. Your order summary
+#: src/locales/.translations/messages.json
+msgctxt "OrderSummary.Title"
+msgid "Your order summary"
+msgstr "Samenvatting van je bestelling"
+
+#. [ThankYou.ProcessingOrder]
+#. defaultMessage is:
+#. Your order will now be processed by {storename}.
+#: src/locales/.translations/messages.json
+msgctxt "ThankYou.ProcessingOrder"
+msgid "Your order will now be processed by {storename}."
+msgstr "Je bestelling zal nu verwerkt worden door {storename}."
+
+#. [ThankYou.Total]
+#. defaultMessage is:
+#. Your payment of € {total} is received.
+#: src/locales/.translations/messages.json
+msgctxt "ThankYou.Total"
+msgid "Your payment of € {total} is received."
+msgstr "Je betaling van € {total} is ontvangen."
+
+#. [OrderAddressRow.ShippingAddress]
+#. defaultMessage is:
+#. Your shipping address
+#: src/locales/.translations/messages.json
+msgctxt "OrderAddressRow.ShippingAddress"
+msgid "Your shipping address"
+msgstr "Je verzendadres"
+
+#~ msgctxt "OrderCompleteButton.CompleteOrder"
+#~ msgid "Complete order"
+#~ msgstr "Bestelling afronden"
+
+#~ msgctxt "SetChangeAddressText.SetBilling"
+#~ msgid "Set billing address"
+#~ msgstr "Factuuradres instellen"
+
+#~ msgctxt "SetChangeAddressText.SetShipping"
+#~ msgid "Set shipping address"
+#~ msgstr "Verzendadres instellen"
+
+#~ msgctxt "Main.LoadingOrder"
+#~ msgid "Loading order"
+#~ msgstr "Bestelling aan het laden"
+
+#~ msgctxt "OrderPayment.LoadingPayment"
+#~ msgid "Loading order payments"
+#~ msgstr "Betalingen aan het laden"
