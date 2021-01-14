@@ -46,7 +46,7 @@ class Main extends Component {
     /** Check if there are any errors */
     if (!!error) {
       return (
-        <div style={{ height: '100%' }}>
+        <div>
           <Header />
           <Container className="pt-4">
             <Alert variant="danger">
@@ -87,7 +87,7 @@ class Main extends Component {
     /** Check if there is any order that is paid */
     if (hasOrder && order.is_paid) {
       return (
-        <div>
+        <div style={{ height: '100%' }}>
           <ThankYou />
         </div>
       );
@@ -96,7 +96,7 @@ class Main extends Component {
     /** Show order creation */
     if (hasOrder) {
       return (
-        <div>
+        <div style={{ height: '100%' }}>
           <Create />
         </div>
       );
