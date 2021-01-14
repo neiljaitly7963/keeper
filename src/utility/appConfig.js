@@ -10,7 +10,7 @@ import AppConfig from '../mock/data/AppConfig.json';
 // }
 
 window.AppConfig = AppConfig;
-s;
+
 export default class {
   static config = cloneDeep(window.AppConfig);
 
