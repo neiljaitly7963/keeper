@@ -46,7 +46,7 @@ class Main extends Component {
     /** Check if there are any errors */
     if (!!error) {
       return (
-        <div>
+        <div style={{ height: '100%' }}>
           <Header />
           <Container className="pt-4">
             <Alert variant="danger">
