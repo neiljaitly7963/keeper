@@ -2,26 +2,17 @@ import React, { useState, useEffect } from 'react';
 import './modal-styles.css';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import Modal from 'react-modal';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import { FormattedMessage } from 'react-intl';
 import { debounce } from 'lodash';
-import {
-  Button, Col, Form, Row, Spinner, Alert,
-} from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-
-import { getAddressForUpdate, getContactDetailsForUpdate } from '../../utility/address';
+import { FormattedMessage } from 'react-intl';
+import { Form, Alert } from 'react-bootstrap';
+import { getAddressForUpdate } from '../../utility/address';
 import webApi from '../../utility/webApi';
 import { getTranslatedCountries } from '../../utility/country';
-import SetChangeAddressText from '../spans/SetChangeAddressText';
-import appConfig from '../../utility/appConfig';
 import { getIntl } from '../../utility/translations';
-
+import appConfig from '../../utility/appConfig';
 import CustomBox from '../Cards/CustomBox';
 import {
-  AddressFormGrid,
   InputsLabelContainer,
   InputsContainer,
   IconContainer,
@@ -33,18 +24,10 @@ import StyledInput from '../Input/StyledInput';
 import User from '../../Icons/user.svg';
 import Map from '../../Icons/map.svg';
 import Phone from '../../Icons/phone.svg';
-import Ellipse from '../../Icons/ellipse.svg';
 /**
  * This styling is used by the modal. and is required to be done this way.
  * Example: https://github.com/reactjs/react-modal#examples
  */
-const customStyles = {
-  content: {
-    width: 'initial',
-    margin: '0 auto',
-    bottom: 'initial',
-  },
-};
 
 const OrderAddressEditModal = (props) => {
   const intl = getIntl();
@@ -52,7 +35,7 @@ const OrderAddressEditModal = (props) => {
   const [error, setError] = useState(false);
 
   const {
-    isBilling, modalShown, closeModal, isLoading, address, order, dispatch,
+    isBilling, address, order, dispatch,
   } = props;
 
   // Set default country_iso2
@@ -93,18 +76,15 @@ const OrderAddressEditModal = (props) => {
     try {
       // Update address
       const newAddress = getAddressForUpdate(order, updatedAddress, isBilling);
-      console.log(newAddress, 'newAddress');
       await updateAddress(newAddress);
 
       // Resets internal form cache
       reset(updatedAddress);
-      await closeModal();
+      // await closeModal();
     } catch (err) {
       setError(err.message);
     }
   };
-
-  const handleFormOnChangeSubmit = debounce(handleSubmit(onSubmit), 3000);
 
   async function postData(url) {
     const options = {
@@ -122,25 +102,29 @@ const OrderAddressEditModal = (props) => {
       .then((res) => res.json())
       .then(
         (result) => {
-          if (result.status === 'ok') {
-            setValue('street', result.details.city, { shouldValidate: true });
-            setValue('city', result.details.street, { shouldValidate: true });
-          } else if (result.status === 'error') {
-            if (result.errormessage) {
-              setValue('street', '', { shouldValidate: true });
-              setValue('city', '', { shouldValidate: true });
+          if (result) {
+            if (result.details && result.status === 'ok') {
+              setValue('street', result.details.city, { shouldValidate: true });
+              setValue('city', result.details.street, { shouldValidate: true });
+            } else if (result.status && result.status === 'error') {
+              if (result.errormessage) {
+                setValue('street', '', { shouldValidate: true });
+                setValue('city', '', { shouldValidate: true });
+              }
             }
           }
         },
         (err) => {
-          console.log('error in getting city and street', err);
+          console.log(err);
         },
       );
   };
 
   useEffect(() => {
     getStreetAndCity();
-  }, []);
+  });
+
+  const handleFormOnChangeSubmit = debounce(handleSubmit(onSubmit), 3000);
 
   const renderFormGroupError = (message) => (
     <div className="invalid-feedback" style={{ display: 'block' }}>
@@ -163,7 +147,6 @@ const OrderAddressEditModal = (props) => {
   return (
     <>
       {error ? showError() : ''}
-      {console.log(address, 'address in return')}
       <CustomBox>
         <span
           style={{
@@ -184,16 +167,12 @@ const OrderAddressEditModal = (props) => {
             </IconContainer>
             <InputsContainer style={{ justifyContent: 'flex-start' }}>
               <StyledInput
-                style={{ marginRight: '27px' }}
                 small
                 type="text"
                 placeholder="First Name"
                 name="firstname"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /\w+/,
                     message: intl.formatMessage({
@@ -206,15 +185,13 @@ const OrderAddressEditModal = (props) => {
               {errors.firstname && renderFormGroupError(errors.firstname.message)}
 
               <StyledInput
+                style={{ marginLeft: '6%' }}
                 extrasmall
                 type="text"
                 placeholder=""
                 name="familyname_prefix"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /\w+/,
                     message: intl.formatMessage({
@@ -233,10 +210,7 @@ const OrderAddressEditModal = (props) => {
                 placeholder="Last Name"
                 name="familyname"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /\w+/,
                     message: intl.formatMessage({
@@ -265,10 +239,7 @@ const OrderAddressEditModal = (props) => {
                 })}
                 name="zipcode"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /\w+/,
                     message: intl.formatMessage({
@@ -290,10 +261,7 @@ const OrderAddressEditModal = (props) => {
                 })}
                 name="streetnumber"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /^\d+$/,
                     message: intl.formatMessage({
@@ -320,10 +288,7 @@ const OrderAddressEditModal = (props) => {
                 })}
                 name="street"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /\w+/,
                     message: intl.formatMessage({
@@ -340,10 +305,7 @@ const OrderAddressEditModal = (props) => {
                 placeholder={intl.formatMessage({ id: 'Address.City', defaultMessage: 'City' })}
                 name="city"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /\w+/,
                     message: intl.formatMessage({
@@ -368,6 +330,7 @@ const OrderAddressEditModal = (props) => {
                 border: 'none',
                 borderBottom: '1px solid rgba(0, 0, 0, 0.3)',
                 width: '100%',
+                backgroundColor: 'white',
               }}
             >
               {countryOptions}
@@ -385,10 +348,7 @@ const OrderAddressEditModal = (props) => {
                 placeholder="Phone"
                 name="phone"
                 ref={register({
-                  required: intl.formatMessage({
-                    id: 'Error.Required',
-                    defaultMessage: 'Required',
-                  }),
+                  required: '*',
                   pattern: {
                     value: /\w+/,
                     message: intl.formatMessage({
@@ -418,8 +378,6 @@ const OrderAddressEditModal = (props) => {
 };
 
 OrderAddressEditModal.propTypes = {
-  modalShown: PropTypes.bool.isRequired,
-  closeModal: PropTypes.func.isRequired,
   isBilling: PropTypes.bool,
   address: PropTypes.object.isRequired,
 };

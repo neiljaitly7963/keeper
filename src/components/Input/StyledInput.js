@@ -1,41 +1,22 @@
 import styled from 'styled-components';
 
-const getWebWidth = (props) => {
+const getWidth = (props) => {
   if (props.extrabig) {
     return '100%';
   }
   if (props.big) {
-    return '235px';
+    return '50%';
   }
   if (props.medium) {
-    return '206px';
+    return '40%';
   }
   if (props.small) {
-    return '128px';
+    return '27%';
   }
   if (props.extrasmall) {
-    return '80px';
+    return '17%';
   }
-  return '100px';
-};
-
-const getMobileWidth = (props) => {
-  if (props.extrabig) {
-    return '100%';
-  }
-  if (props.big) {
-    return '9em';
-  }
-  if (props.medium) {
-    return '7.5em';
-  }
-  if (props.small) {
-    return '4em';
-  }
-  if (props.extrasmall) {
-    return '3em';
-  }
-  return '8em';
+  return '30%';
 };
 
 const StyledInput = styled.input`
@@ -47,13 +28,7 @@ const StyledInput = styled.input`
     color: rgba(0, 0, 0, 0.3);
     font-size: 14px;
   }
-
-  @media (min-width: 1000px) {
-    width: ${getWebWidth};
-  }
-  @media (max-width: 1000px) {
-    width: ${getMobileWidth};
-  }
+  width: ${getWidth};
 `;
 
 export default StyledInput;

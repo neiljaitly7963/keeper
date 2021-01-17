@@ -2,3 +2,7 @@
   width: 100%;
   -webkit-appearance: none;
 }
+
+.invalid-feedback {
+  width: 1px;
+}
